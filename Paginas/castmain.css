@@ -1,0 +1,50 @@
+body{
+    background-image:  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../Img/Fondo\ Dojos.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align:center;
+    border: 3px sold gold;
+    
+}
+
+.dojoscont{
+    display:flex; 
+    flex-direction: row; 
+    align-items: center; 
+    text-align:center;
+    gap:30rem; 
+    width: 65rem; 
+    height:20rem; 
+    border: transparent; 
+    margin:0; 
+    margin-top:15rem;
+}
+
+.dojoscont .miyagi{
+    padding-left: 0;
+}
+
+.miyagi:hover{
+    scale: 1.05; 
+    opacity:0.7;
+}
+
+.cobra:hover{
+    scale: 1.05; 
+    opacity:0.7;
+}
+
+h1{
+    color:gold; 
+    text-decoration: underline; 
+    padding-top: 0;
+    font-size:60px;
+}

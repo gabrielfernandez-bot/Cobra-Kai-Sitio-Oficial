@@ -1,0 +1,137 @@
+body{background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Img/Fondo\ elenco\ 2.jpg); background-size: cover; background-position: center; background-attachment:fixed; background-repeat: no-repeat}
+
+main{ justify-content: center;}
+
+#amiyagi{
+    color:rgb(91, 3, 3); 
+    margin:0; 
+    margin-right:80rem; 
+    padding:0.5rem;
+    background-color: beige;   
+    align-items: center;
+    text-align:center; 
+    font-family: 20px; 
+    border-radius: 0.3rem;
+}
+
+#amiyagi:hover{
+    color:beige; 
+    background-color: rgb(91, 3, 3);
+    scale: 1.05; 
+    opacity:0.7;
+}
+
+
+
+.miyagigral{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+    text-align:center;
+}
+
+.artmiyagis{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+    text-align:center;
+}
+
+#titlesen{
+
+    font-family: Bahnschrift Light;
+    font-size: 40px;
+    color:beige;
+}
+
+.artpjes{
+    display:flex;
+    flex-direction:row;
+    gap:1rem;
+    align-items: center;
+    text-align:center;
+    width:100%;
+    
+
+}
+.artp1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    gap:0;
+    border: 2px solid beige;
+    width:50%;
+    padding:1rem;
+    height:42rem;
+    border-radius: 0.7rem;
+    background:rgba(77,77,77,0.3);
+}
+
+
+.artp2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    gap:0;
+    border: 2px solid beige;
+    width:50%;
+    height:42rem;
+    padding:1rem;
+    border-radius: 0.7rem;
+    background:rgba(77,77,77,0.3);
+}
+
+.kreese{
+    border: transparent;
+}
+
+.silver{
+    border: transparent;
+}
+
+.imgk{
+
+    border: transparent;;
+}
+
+h1{
+  color:aliceblue;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.qnom{
+  color:aliceblue;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 18px;
+  text-decoration: none;
+  margin-top:-0.9rem;
+}
+
+.title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    font-size: 18px;
+
+}
+
+.b1{
+    text-align: justify;
+    font-family: 14px;
+    color:aliceblue;
+}
+
+.b2{
+   text-align: justify;
+   font-family: 14px;
+   color:aliceblue;
+}

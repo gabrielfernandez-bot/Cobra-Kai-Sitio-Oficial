@@ -1,0 +1,562 @@
+*{
+
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    cursor: url('./Img/cursor.png'), auto !important;
+    
+}
+
+
+
+body{ 
+   background-image: url(./Img/Fondo1.jpg);
+   font-size: 25px;
+   background-position:center;
+   background-attachment:fixed;
+   background-size:cover;
+   background-repeat:repeat;
+   backdrop-filter: blur(px);
+   padding-top:0;
+   padding-bottom: 6rem;
+    z-index: 10;
+
+    
+}
+
+main{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    z-index: 2;
+}
+
+header{
+     
+    background-color:black;
+    height:6rem;
+    max-width: 100%;
+    
+    display:flex;
+    align-items:flex-start;
+    flex-direction: row;
+    align-items:center;
+    text-align: center;
+    gap: 0rem;
+    padding-left: 0;
+    padding-right:0;
+    z-index: 2;
+   
+}
+
+.imgh{
+    margin-top:0.5rem;
+    margin-left: 27.5rem;
+    
+}
+
+.navh{ 
+  filter: brightness(110%);
+  position:relative;
+  z-index: 2;
+  background-color: transparent;
+  width:36rem;
+  height:2rem;
+
+  display:flex;
+  text-align:right;
+  align-items:center; 
+  margin-top: 2rem;
+  padding:0;
+  margin-right: 0;
+  
+  
+}
+
+#aimg1{
+  margin-top: 1rem;
+  scale: unset;  
+}
+
+a{
+    font-size: 12px; 
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Bahnschrift Light;
+    text-shadow: rgba(0, 0, 0, 0.2);
+    margin-left:1rem ;
+    margin-right:1rem ;
+}
+
+a:hover{
+    color:red;
+    scale: 1.2;
+    
+}
+
+
+
+.secimg{
+   display: flex;
+   flex-direction: row;
+
+   gap:3rem;
+   
+   width: 100%;
+   height:38rem;
+   align-items: center;
+   margin-top:2.5rem;
+}
+
+.artimg{
+    position:relative;
+    height:43rem;
+    width:100%;
+    
+    
+}
+
+.imgmain1{
+    height:100%;
+    width:100%;
+}
+
+#aserie{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    z-index: 2;
+    top:87.5%;
+    bottom:50%;
+    right:50%;
+    font-size: 28px;
+    width:10rem;
+    height:3rem;
+    padding-top: 0.5rem;
+    background-color: red;
+    color:white;
+    border-radius: 0.3rem;
+}
+
+#aserie:hover{
+ text-decoration: none;
+ background-color:rgba(57, 62, 31, 0.5) ;
+ color:aqua;
+}
+
+
+
+#h1a{ color:whitesmoke;}
+#h1b{ color: rgb(125, 125, 25);}
+
+
+.imgmain2{
+    height:100%;
+    width:100%;
+}
+
+
+.separador{
+    background-color: rgb(221, 221, 115);
+    width: 60%;
+    height:3px;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    border-radius: 10rem;
+}
+
+.imgsep{
+    width: 100%;
+    height:100%;
+    border-radius: 20rem;
+}
+
+.sect1{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.7rem;
+    height:43rem;
+    width: 98%;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top: 1rem;
+    margin:0;
+    aspect-ratio: initial;
+    background-color: rgba(63, 63, 65, 0.5);
+}
+
+.artsect1{
+
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    gap:1rem;
+}
+
+.iframetrailer{
+    width:70%;
+}
+
+.artacerca{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+}
+
+blockquote{
+    text-align: justify;
+    font-family: Bahnschrift Light;
+    color:whitesmoke;
+    font-size:20px ;
+}
+
+#ptitle{
+    font-family: Bahnschrift Light; 
+    font-size: 32px;
+    color:whitesmoke;
+}
+
+#psubtitle{
+    font-family: Bahnschrift Light; 
+    font-size: 20px;
+    color:whitesmoke;
+}
+
+
+h1{
+  color: rgb(221, 221, 115);
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 40px;
+  text-decoration: none;
+  
+}
+
+.sectnov{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:31rem;
+    padding:1rem;
+    gap:5rem;
+    background-color: rgba(63, 63, 65, 0.5);
+}
+
+.artnovmain{
+   display:flex;
+   flex-direction: row;
+   gap:1rem;
+   width:100%;
+   height:40rem;
+   background-color:rgba(33, 39, 66, 0.5);
+   padding: 0.5rem;
+   border-radius: 0.5rem;
+
+}
+
+.artnov1{
+  position:relative;
+  width:20rem;
+  height:20rem;
+  box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.3);
+  
+}
+
+.artnov2{
+  position:relative;
+  width:20rem;
+  height:20rem;
+  
+}
+
+.artnov3{
+  position:relative;
+  width:20rem;
+  height:20rem;
+  
+}
+
+.artnov4{
+  position:relative;
+  width:20rem;
+  height:20rem;
+  
+}
+
+.imgnov{
+  
+  width:100%;
+  height:100%;
+}
+
+#anov{
+  display: none;
+  position: absolute;
+  top:0;
+  bottom: 50%; 
+  left: 45%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #f9f5f6;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  font-size: 14px;
+  white-space: nowrap; 
+  z-index: 10;
+  width:100%;
+  height:100%;
+}
+
+.artnov1:hover #anov{
+  display: block;
+  scale:unset;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.artnov2:hover #anov{
+  display: block;
+  scale:unset;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.artnov3:hover #anov{
+  display: block;
+  scale:unset;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.artnov4:hover #anov{
+  display: block;
+  scale:unset;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+.sect2{
+ display: flex;
+ flex-direction: column;
+ gap:8rem;
+ text-align: center;
+ align-items: center;
+ width: 100%;
+ height:90rem;
+ margin-top:1rem;
+ margin-bottom: 5rem;
+ background-color: transparent;
+}
+
+.artaux{
+  height:23rem;
+    width:100%;  
+}
+
+.cover{
+ position: absolute;
+ z-index: 10;
+ top:0;
+ left:0;
+ height:100%;
+ width:100%;
+ background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+ pointer-events: none; 
+ border:2px solid blue;
+
+}
+
+.imgpubli1{
+display: block;
+height:100%;
+width:100%;
+z-index: 9;
+}
+
+#ptitle1{
+    position:absolute;
+    font-family: Bahnschrift Light; 
+    font-size: 32px;
+    color:whitesmoke;
+    z-index: 11;
+    transform: translate(100%, -800%);
+    right: 30rem;
+}
+
+#blockquote1{
+    position:absolute;
+    text-align: justify;
+    font-family: Bahnschrift Light;
+    color:whitesmoke;
+    font-size:20px ;
+    z-index: 11;
+    transform: translate(-50%, -50%);
+}
+
+.imgpubli2{
+height:100%;
+width:100%;
+
+}
+
+.artmainpubli1{
+    position:relative;
+    height:35rem;
+    width:98%;
+    padding-left:0;
+   
+}
+
+#acontact{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    z-index: 2;
+    top:63%;
+    bottom:50%;
+    right:37%;
+    font-size: 28px;
+    width:10rem;
+    height:3rem;
+    padding-top: 0.5rem;
+    background-color:chocolate;
+    color:white;
+    border-radius: 0.3rem;
+}
+
+#acontact:hover{
+ text-decoration: none;
+ background-color:rgba(57, 62, 31, 0.5) ;
+ color:aqua;
+}
+
+.artmainpubli2{
+    position:relative;
+    height:28rem;
+    width:98%;
+    padding-left:0;
+   
+}
+
+#apubli{
+  display: none;
+  position: absolute;
+  top:0;
+  bottom: 0%; 
+  right:0;
+  left: 51.45%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding-left: 3rem;
+  padding-top: 12%;
+  padding-left:0; 
+  font-size: 14px;
+  white-space: nowrap; 
+  z-index: 10;
+  width:95%;
+  height:100%;
+}
+
+.artmainpubli2:hover #apubli{
+  display: block;
+  scale:unset;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+
+
+
+.imgmain1{
+    border-radius: 0.5rem;
+}
+
+#amain1{
+    font-size: 14px;
+    font-family:Helvetica;
+}
+
+#amain2{
+    color:rgb(231, 213, 216);
+    font-size: 30px;
+    font-family: Helvetica;
+    margin-top:0.01rem;
+}
+
+#amain2:hover{
+    color:whitesmoke;
+    font-family: Helvetica;
+    scale:unset;
+}
+
+
+
+footer{
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    background-color:transparent;
+    padding:1rem;
+    align-items: center;
+    text-align: center;
+    max-width:100%;
+    margin-top: 3rem;
+}
+
+.navh2{
+ display: inline-flex;
+ position:relative;
+ z-index: 2;
+ text-align: right;
+ padding: 1rem;
+ border-radius: 1rem;
+}
+
+.sectfooter{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+
+#afooter{
+    
+    align-items: center;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+#afooter:not(:last-child)::after {
+    content: "|";
+    margin-left: 10px;
+    color: #ccc;
+}
+
+#afooter:hover{
+    scale:unset;
+    text-decoration: none;
+    font-family: Helvetica;
+    color:red;
+}
+
+h2{
+    font-size: 14;
+    font-family: Helvetica;
+}

@@ -1,0 +1,257 @@
+
+
+.secbanner{
+   
+    height:40rem;
+    width:100%;
+    margin-top:-1;
+    z-index: 10;
+}
+
+
+.imgmain1{ 
+    height:39rem;
+    width:100%;
+}
+
+
+.secvideos{
+    
+   display: flex;
+   flex-direction: column;
+   position:absolute;
+   gap:1rem;
+   width:90%;
+   margin-top: 45rem;
+   background-color: rgba(144, 142, 142, 0.2);
+   padding:1rem;
+   border-radius: 0.7rem;
+   
+}
+
+.artvideos{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    z-index: 10;
+    text-align: center;
+    align-items: center;
+    padding:0;
+    width:100%;
+}
+
+.imgmain1{
+    height:100%;
+    width:100%;
+}
+
+.imgh{
+    margin-top:0.5rem;
+    
+    margin-left: 21.6rem;
+    
+}
+
+
+.artlist{
+ 
+ display: flex;
+ flex-direction: column;
+ gap:1rem;
+ 
+ overflow-y: auto;
+ margin:1rem;
+ &::-webkit-scrollbar {
+    display: none;
+  }
+
+}
+
+
+
+h1{
+  color:beige;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.secgeneral{
+ display:flex;
+ flex-direction: row;
+ gap:1rem;
+ padding:1rem;
+ margin-top: 48rem;
+ width:90%;
+ background-color: rgba(144, 142, 142, 0.2);
+ border-radius: 0.7rem;
+}
+
+.fichatecnicagral{
+ display:flex;
+ flex-direction: column;
+ gap:1rem;
+ width:50%;
+ height:100rem;
+ padding:1rem;
+ border:2px solid beige;
+ border-radius: 0.7rem;
+ 
+}
+
+.fichatecaux{
+ display:flex;
+ flex-direction: row;
+ 
+ padding:1rem;
+ 
+}
+
+.ficha1{
+ display:flex;
+ flex-direction: column;
+ 
+ 
+}
+
+.ficha2{
+ display:flex;
+ flex-direction: column;
+ 
+ 
+}
+
+#pftitle{
+  color: whitesmoke;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 32px;
+  text-decoration: underline;
+
+}
+
+#lititle{
+  color: whitesmoke;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 24px;
+  text-decoration: none;
+
+}
+
+#listl{
+  color: beige;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#stitle1{
+  color: whitesmoke;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 32px;
+  text-decoration: underline;
+
+}
+
+#stitle2{
+  color: whitesmoke;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 24px;
+  text-decoration: none;
+  margin-left: 0;
+
+}
+
+blockquote{
+  color: beige;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.sinopsis{
+    display:flex;
+    flex-direction: column;
+    overflow: auto; 
+    width:50%;
+    height:100rem;
+    padding:1rem;
+    border:2px solid beige;
+    border-radius: 0.7rem;
+   
+}
+
+.sinopsis::-webkit-scrollbar {
+    display: none;
+}
+
+.list{list-style: none; 
+    padding:0;
+    margin:0;
+}
+#listl{ list-style: none; 
+    padding:0; 
+    margin:0;
+}
+.title1{background-color: rgba(77,77,77,0.2);
+     border: transparent; 
+     height: 30px; width: px; 
+     margin-right: -0px; 
+     text-decoration: underline;
+}
+.title2{ background-color: rgba(77,77,77,0.2); 
+    text-align: center;
+     margin-top: 20px; 
+}
+
+#stitle{
+  color: rgb(221, 221, 115);
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 32px;
+  text-decoration: none;
+}
+
+p{ text-align: left; 
+font-weight: bold; 
+}
+
+blockquote{text-align: justify; 
+}
+
+.secbanner{
+  display:flex;
+  flex-direction: row;
+  gap:1rem;
+  border-radius: 0.7rem;
+  height:43rem;
+  max-width: 100%;
+  padding: 0;
+  background-color:transparent;
+  margin-top:0rem;
+}
+
+.artlist{
+ display: flex;
+ flex-direction: column;
+ gap:1rem;
+ height:38rem;
+ overflow-y: auto;
+ margin:1rem;
+ &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.artiframe{
+ height:30rem;
+ margin:1rem;
+
+}
+

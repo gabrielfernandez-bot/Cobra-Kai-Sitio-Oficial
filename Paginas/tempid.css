@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../Img/metal-texture-dark-finish-0ob8mn0ewo3v9smi.jpg); 
+    background-size: cover; background-position: center; background-attachment: fixed;}
+
+article{ border: solid wheat 2px; border-style:groove;}
+
+h1{font-size: xx-large; font-family: 'Times New Roman', Times, serif; color: goldenrod; text-align: center; text-decoration:underline;}
+
+h2{font-size: larger; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:bisque; text-align: left; padding-left: 10px;}
+
+q{ font-size: larger; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:bisque;  padding-left: 10px;}
+
+p{ font-size: medium; font-family: Arial, Helvetica, sans-serif; color:azure; padding: 20px 20px; }
