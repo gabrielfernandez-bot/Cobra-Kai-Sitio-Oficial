@@ -1,3 +1,17 @@
+.artimg{
+    background-image: url(../Img/Bannerm.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width:100%;
+    height:45rem;
+    margin-top:0rem;
+}
+
+
+
+
 .secgral{
   display:flex;
   flex-direction: row;
