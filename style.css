@@ -106,19 +106,11 @@ a:hover{
    flex-direction: row;
 
    gap:3rem;
-   
+   position:relative;
    width: 100%;
-   height:38rem;
+   height:43rem;
    align-items: center;
-   margin-top:2.5rem;
-}
-
-.artimg{
-    position:relative;
-    height:43rem;
-    width:100%;
-    
-    
+   margin-top:0;
 }
 
 .imgmain1{

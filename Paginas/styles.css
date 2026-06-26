@@ -33,6 +33,22 @@ main{
     z-index: 2;
 }
 
+.secimg{
+   display: flex;
+   flex-direction: row;
+   gap:3rem;
+   width: 100%;
+   height:43rem;
+   align-items: center;
+   margin-top:0;
+}
+
+.imgmain1{
+    height:100%;
+    width:100%;
+}
+
+
 header{
      
     background-color:black;

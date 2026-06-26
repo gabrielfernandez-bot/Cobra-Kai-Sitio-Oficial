@@ -1,32 +1,5 @@
 
-.secimg{
-   display: flex;
-   flex-direction: row;
 
-   gap:3rem;
-   
-   width: 100%;
-   height:50rem;
-   align-items: center;
-
-
-   background-image:silver;
-   
-  margin-top: 0rem;
-}
-
-.artimg{
-    position:relative;
-    height:100%;
-    width:100%;
-    
-    
-}
-
-.imgmain1{
-    height:100%;
-    width:100%;
-}
 
 .sectform{
     background-image: url(../Img/dojocontacto.png);
