@@ -105,7 +105,9 @@ p{
 }
 
 #abutton:hover{
-    scale:1.2;
+    scale:unset;
+    color:aquamarine;
+    background-color: black;
 
 }
 
