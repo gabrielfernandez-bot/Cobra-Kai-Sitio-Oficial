@@ -104,7 +104,6 @@ a:hover{
 .secimg{
    display: flex;
    flex-direction: row;
-
    gap:3rem;
    position:relative;
    width: 100%;
@@ -116,6 +115,7 @@ a:hover{
 .imgmain1{
     height:100%;
     width:100%;
+   
 }
 
 #aserie{
@@ -408,7 +408,7 @@ width:100%;
 .artmainpubli1{
     position:relative;
     height:35rem;
-    width:98%;
+    width:100%;
     padding-left:0;
    
 }
