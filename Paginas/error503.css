@@ -1,0 +1,50 @@
+#mainenvio{
+    background-image: url(../Img/wallpaper\ kreese\ y\ lawrence.jpg);
+    background-position:center;
+    background-attachment:scroll;
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+   
+    margin-top:0;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+    
+}
+
+section{
+    background-color: rgba(60, 54, 54, 0.5);
+    border-radius: 0.7rem;
+    width:87%;
+    height:87%;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    text-align: center;
+    align-items: center;
+}
+
+h1,blockquote{ color:azure; font-family: Arial, Helvetica, sans-serif;}
+
+h1{font-size: 100px;}
+
+blockquote{font-size: 40px;}
+
+.artsupport{
+    height:10rem;
+    width:10rem;
+}
+
+#imgsupport{
+    height:100%;
+    width:100%;
+    border-radius: 0.5rem;
+}
+
+#footersupport{
+    margin-top:5rem;
+}
