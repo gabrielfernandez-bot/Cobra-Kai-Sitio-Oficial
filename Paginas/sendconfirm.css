@@ -1,0 +1,66 @@
+*{
+
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    cursor: url('./Img/cursor.png'), auto !important;
+    
+}
+
+
+body{
+   background-image: url(../Img/fondo\ envio\ exitoso.jpg);
+   background-position:center;
+   background-attachment:scroll;
+   background-size:cover;
+   background-repeat:repeat;
+   width:100%;
+   height:100%;
+}
+
+main{
+
+    width:90%;
+    height:90%;
+    background-color: rgba(0,0,0,0.55);
+    margin-top: 5rem;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 10%;
+    border-radius: 0.7rem;
+}
+
+h1,h2,h3{ color:azure; font-family: Arial, Helvetica, sans-serif;}
+
+h1{font-size: 120px;}
+
+h2{font-size: 60px;}
+
+h3{font-size: 60px;}
+
+a{
+    width:12rem;
+    height:3rem;
+    text-decoration: none;
+    color:aquamarine;
+    background-color: rgb(4, 4, 4);
+    border:2px solid aquamarine;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.7rem;
+    margin-top: 1rem;
+    cursor: pointer !important;
+}
+
+a:hover{
+
+    scale: 1.2;
+    color:rgb(4, 4, 4);
+    background-color: aquamarine;
+    border:2px solid rgb(4, 4, 4);
+    border-radius: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer !important;
+}
