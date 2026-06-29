@@ -1,5 +1,5 @@
 *{
- cursor: url('./Img/cursor.png'), auto !important;
+ cursor: url('../Img/cursor.png'), auto !important;
 }
 
 body{
@@ -40,11 +40,13 @@ main{
 .miyagi:hover{
     scale: 1.05; 
     opacity:0.7;
+    transition: 0.7s;
 }
 
 .cobra:hover{
     scale: 1.05; 
     opacity:0.7;
+    transition: 0.7s;
 }
 
 h1{

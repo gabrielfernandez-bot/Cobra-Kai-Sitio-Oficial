@@ -1,7 +1,3 @@
-
-
-
-
 .secgral{
   display:flex;
   flex-direction: row;
@@ -122,7 +118,7 @@
   gap:1 rem;
   width:14rem;
   height:20rem;
-  background-color: rgb(133, 153, 153);
+  background-color: rgb(103, 128, 128);
   border-radius: 0.7rem;
 }
 
@@ -139,6 +135,7 @@
   height:50%;
   border-radius: 0.7rem 0.7rem 0 0;
 }
+
 
 .secgral .secinf .artnovedades .artadv{
   display:flex;
@@ -275,13 +272,14 @@ blockquote{
 #ainf{
  background-color: gold;
  color:black;
- border-radius: 0.5rem;
+ border-radius: 0.7rem;
  font-family: Arial, Helvetica, sans-serif;
  font-size:16px;
  width:5.9rem;
- height:1rem;
+ height:1.5rem;
  align-items: center;
  text-align: center;
+ padding:0.2rem
 }
 
 .sepalt{
@@ -329,9 +327,9 @@ blockquote{
  font-family: Arial, Helvetica, sans-serif;
  font-size:16px;
  width:5.9rem;
- height:1.2rem;
- align-items: center;
+ height:1.5rem;
  text-align: center;
+ padding:0.2rem;
 }
 
 #ainf1:hover{
@@ -364,13 +362,20 @@ ul{
  font-family: Arial, Helvetica, sans-serif;
  font-size:16px;
  width:5.9rem;
- height:1.2rem;
+ height:1.5rem;
  align-items: center;
  text-align: center;
+ padding:0.2rem;
 }
 
 #aev:hover{
   text-decoration: none;
+  scale: 1.3;
+  transition:0.5s;
+  background-color: white;
+  color:rgb(246, 15, 3);
+  border-radius: 0.2rem;
+  border:2px solid rgb(246, 15, 3);
 }
 
 #footerev{
@@ -503,6 +508,7 @@ li{
 
 #abso:hover{
   text-decoration: none;
+  scale:1.2;
 }
 
 #ainf2{

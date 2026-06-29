@@ -1,6 +1,14 @@
-body{background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Img/Fondo\ elenco\ 2.jpg); background-size: cover; background-position: center; background-attachment:fixed; background-repeat: no-repeat}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Img/Fondo\ elenco\ 2.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment:fixed; 
+    background-repeat: no-repeat
+}
 
-main{ justify-content: center;}
+main{ 
+    justify-content: center;
+}
 
 #amiyagi{
     color:rgb(91, 3, 3); 
@@ -19,6 +27,7 @@ main{ justify-content: center;}
     background-color: rgb(91, 3, 3);
     scale: 1.05; 
     opacity:0.7;
+    transition: 0.7s;
 }
 
 
@@ -127,14 +136,15 @@ h1{
 
 }
 
-.b1{
+.b1,.b2{
     text-align: justify;
-    font-family: 14px;
+    font-family: serif;
     color:aliceblue;
+    font-size: 16.61px;
 }
 
-.b2{
+/*.b2{
    text-align: justify;
-   font-family: 14px;
+   font-family: serif;
    color:aliceblue;
-}
+}*/
