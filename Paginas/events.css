@@ -24,7 +24,7 @@
   border:3px solid rgb(43, 55, 66);
   border-style:groove;
   border-radius: 0.5rem;
-  background-color: rgba(36, 36, 36, 0.5);
+  background-color: rgba(112, 110, 110, 0.5);
   
 
 }
@@ -228,6 +228,7 @@
   font-size:18px;
   text-decoration: none;
   
+  
 }
 
 
@@ -289,26 +290,13 @@ blockquote{
   background-color: rgb(67, 79, 79);
 }
 
-.ahead1:hover{
-  color:blue;
-}
-
-.ahead2:hover{
-  color:black;
-}
-
-.ahead3:hover{
-  color:pink
-}
-
-.ahead4:hover{
-  color:red;
-}
 
 
-.ahead5:hover{
-  color:black;
+.amedia:hover{
+  color:rgb(43, 55, 66);
+  scale: 1.2;
 }
+
 
 .arta{
 
