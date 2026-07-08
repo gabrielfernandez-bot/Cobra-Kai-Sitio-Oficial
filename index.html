@@ -10,31 +10,43 @@
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="logo">
+            <a id="aimg1" href="https://www.netflix.com"><img id="imgh1" src="./Img/netflix logo entero.png" width="150"
+                    height="60" alt=""></a>
+            <a id="aimg2" href="./index.html"><img id="imgh2" src="./Img/logopubli.png" width="250" height="60"
+                    alt=""></a>
+            <a id="aimg2" href="./index.html"><img id="imgh3" src="./Img/logopubliresp.png" width="250" height="60"
+                    alt=""></a>
 
-    <header>
-        <a id="aimg1" href="https://www.netflix.com"><img class="imgh1" src="./Img/netflix logo entero.png" width="150"
-                height="60" alt=""></a>
-        <a id="aimg1" href="./index.html"><img class="imgh" src="./Img/logopubli.png" width="250" height="60"
-                alt=""></a>
+        </div>
 
-        <nav class="navh">
-            <a href="./index.html"><strong>HOME</strong></a>
-            <a href="./Paginas/about.html"><strong>ACERCA DE</strong></a>
-            <a href="./Paginas/cast.html"><strong>PERSONAJES</strong></a>
-            <a href="./Paginas/seasons.html"><strong>TEMPORADAS</strong></a>
-            <a href="./Paginas/events.html"><strong>NOVEDADES</strong></a>
-            <a href="./Paginas/contacto.html"><strong>CONTACTO</strong></a>
-        </nav>
-    </header>
+        <!-- Checkbox oculto para la interactividad (versión sin JS) -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger-icon">&#9776;</label>
+
+        <ul class="nav-links">
+            <li><a href="./index.html"><strong>HOME</strong></a></li>
+            <li><a href="./Paginas/about.html"><strong>ACERCA DE</strong></a></li>
+            <li><a href="./Paginas/cast.html"><strong>PERSONAJES</strong></a></li>
+            <li><a href="./Paginas/seasons.html"><strong>TEMPORADAS</strong></a></li>
+            <li><a href="./Paginas/events.html"><strong>NOVEDADES</strong></a></li>
+            <li><a href="./Paginas/contacto.html"><strong>CONTACTO</strong></a></li>
+        </ul>
+    </nav>
 
 
     <main>
-
-
         <section class="secimg">
             <img class="imgmain1" src="./Img/Banneralt.jpg" alt="imagenbanner">
             <a id="aserie" href="https://www.netflix.com/ar/title/81002370">
                 <div class="divdojo">Ver Ahora</div>
+            </a>
+        </section>
+
+        <section class="secimgresp">
+            <a id="aserie" href="https://www.netflix.com/ar/title/81002370">
+                <img class="imgmain1" src="./Img/Bannerresponsive.jpg" alt="imagenbanner">
             </a>
         </section>
 
@@ -69,6 +81,38 @@
             <img class="imgsep" src="./Img/abstract-texture-background-wave-gold-metal-wall-free-photo.jpg" alt="">
         </article>
 
+        <section class="sect1r">
+            <h1>ACERCA DE</h1>
+            <article class="artsect1r">
+                <article class="artvideor">
+                    <iframe class="iframer" src="https://www.youtube.com/embed/xCwwxNbtK6Y"
+                        title="Official Cobra Kai Trailer - The Karate Kid Saga continues" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </article>
+
+                <article class="artacercar">
+                    <p id="ptitler">COBRA KAI</p>
+                    <p id="psubtitler">Acción, Comedia, Drama</p>
+                    <br>
+                    <blockquote id="blockquoter">
+                        COBRA KAI se desarrolla más de 30 años después de los eventos del Torneo de Karate All Valley de
+                        1984, con la continuación del inevitable conflicto entre Daniel LaRusso (Ralph Macchio) y Johnny
+                        Lawrence (William Zabka). En el Sekai Taikai, Miyagi-Do se enfrenta a nuevos desafíos y viejos
+                        enemigos mientras luchan por convertirse en campeones mundiales. ¿Podrán mantenerse unidos
+                        cuando
+                        las rivalidades internas resurjan?
+                    </blockquote>
+                    <br>
+                </article>
+
+            </article>
+        </section>
+
+        <article class="separadorresp">
+            <img class="imgsepresp" src="./Img/abstract-texture-background-wave-gold-metal-wall-free-photo.jpg" alt="">
+        </article>
 
         <section class="sectnov">
             <h1>NOVEDADES</h1>
@@ -107,25 +151,57 @@
                 </article>
 
             </article>
-
-
-
         </section>
 
         <article class="separador">
             <img class="imgsep" src="./Img/abstract-texture-background-wave-gold-metal-wall-free-photo.jpg" alt="">
         </article>
 
-        <section class="sect2">
+        <section class="sectnovr">
+            <h1>NOVEDADES</h1>
 
+            <article class="artnovmainr">
+                <article class="artnov1r">
+                    <a id="anovr"
+                        href="https://www.amazon.com/-/es/Ultimate-Karate-Kid-Collection-Blu-ray/dp/B0FB3JKXXD">
+                        <img class="imgnovr" src="./Img/collagenovedades.jpg" alt="novedades">
+                    </a>
+                </article>
+
+                <article class="artnov2r">
+                    <a id="anovr" href="./Paginas/events.html#arteventos">
+                        <img class="imgnovr" src="./Img/Evento.jpg" alt="">
+                    </a>
+
+                </article>
+
+                <article class="artnov3r">
+                    <a id="anovr" href="./Paginas/events.html#juego2">
+                        <img class="imgnovr" src="./Img/videojuego.jpg" alt="">
+                    </a>
+
+                </article>
+
+                <article class="artnov4r">
+                    <a id="anovr" href="./Paginas/events.html#soundtrack">
+                        <img class="imgnovr" src="./Img/Original Soundtrack.jpg" alt="">
+                    </a>
+
+                </article>
+
+            </article>
+        </section>
+
+        <article class="separadorresp">
+            <img class="imgsepresp" src="./Img/abstract-texture-background-wave-gold-metal-wall-free-photo.jpg" alt="">
+        </article>
+
+        <section class="sect2">
             <article class="artmainpubli1">
                 <img class="imgpubli1" src="./Img/contactr.jpg" alt="">
                 <a id="acontact" href="./Paginas/contacto.html">
                     <div class="divdojo">Contacto</div>
                 </a>
-
-
-
             </article>
 
             <article class="separador">
@@ -137,15 +213,39 @@
                 <a id="apubli" href="https://cobrakaistore.com/">
                     <h1>IR A LA TIENDA</h1>
                 </a>
-
             </article>
         </section>
 
+        <article class="separador">
+            <img class="imgsep" src="./Img/abstract-texture-background-wave-gold-metal-wall-free-photo.jpg" alt="">
+        </article>
 
+        <section class="sect2r">
+            <article class="artmainpubli1r">
+                <img class="imgpubli1r" src="./Img/contactresponsive.jpg" alt="">
+                <a id="acontactr" href="./Paginas/contacto.html">
+                    <div class="divdojor">Contacto</div>
+                </a>
+            </article>
+
+            <article class="separadorresp">
+                <img class="imgsepresp" src="./Img/abstract-texture-background-wave-gold-metal-wall-free-photo.jpg"
+                    alt="">
+            </article>
+
+            <article class="artmainpubli2r">
+                <a id="apublir" href="https://cobrakaistore.com/">
+                    <img class="imgpubli2r" src="./Img/Publiresponsive.jpg" alt="">
+                </a>
+            </article>
+        </section>
+
+        <article class="separadorresp">
+            <img class="imgsepresp" src="./Img/abstract-texture-background-wave-gold-metal-wall-free-photo.jpg" alt="">
+        </article>
     </main>
 
-    <footer>
-
+    <footer class="footerpc">
         <iframe data-testid="embed-iframe" style="border-radius:12px"
             src="https://open.spotify.com/embed/playlist/37i9dQZF1DXal36n8FZoQm?utm_source=generator&theme=0&si=5982c6193ff9482a"
             width="100%" height="352" frameBorder="0" allowfullscreen=""
@@ -155,7 +255,6 @@
         <article class="separador">
             <img class="imgsep" src="./Img/abstract-texture-background-wave-gold-metal-wall-free-photo.jpg" alt="">
         </article>
-
 
         <img src="./Img/Logofooter.png" width="100" height="100" alt="">
 
@@ -181,5 +280,42 @@
 
         </section>
         <h2>© 2024 Netflix / Sony Pictures Television Inc. ALL RIGHTS RESERVED.</h2>
+    </footer>
+
+    <footer class="footerresp">
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DXal36n8FZoQm?utm_source=generator&theme=0&si=7674fc76b44242bd"
+            width="100%" height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+        </iframe>
+
+        <article class="separadorresp">
+            <img class="imgsepresp" src="./Img/abstract-texture-background-wave-gold-metal-wall-free-photo.jpg" alt="">
+        </article>
+
+        <img src="./Img/Logofooter.png" width="100" height="100" alt="">
+
+        <nav class="navh2resp">
+            <a class="aheadresp" href="https://www.facebook.com/CobraKaiSeries/" id="face"><i
+                    class="fa-brands fa-facebook-f fa-xl"></i></a>
+            <a class="aheadresp" href="https://x.com/CobraKaiSeries" id="twitter"><i
+                    class="fa-brands fa-x-twitter fa-xl"></i></a>
+            <a class="aheadresp" href="https://www.instagram.com/cobrakaiseries/" id="ig"><i
+                    class="fa-brands fa-instagram fa-xl"></i></a>
+            <a class="aheadresp" href="https://www.youtube.com/channel/UCe9DTWmhhxeKyYHL4mldGcA" id="youtube"><i
+                    class="fa-brands fa-youtube fa-xl"></i></a>
+            <a class="aheadresp" href="https://www.tiktok.com/@netflixlat" id="tiktok"><i
+                    class="fa-brands fa-tiktok fa-xl"></i></a>
+            <a class="aheadresp" href="mailto:cobrakai-dojo@hotmail.com" class="icono-correo" title="Abrir Outlook"
+                id="correo"><i class="fa-solid fa-envelope fa-xl"></i></a>
+        </nav>
+
+        <section class="sectfooterresp">
+            <a id="afooterresp" href="./Paginas/error503.html"><strong>PRIVACIDAD</strong></a>
+            <a id="afooterresp" href="./Paginas/error503.html"><strong>TERMINOS Y CONDICIONES</strong></a>
+            <a id="afooterresp" href="./Paginas/error503.html"><strong>AYUDA</strong></a>
+
+        </section>
+        <h2 class="h2resp">© 2024 Netflix / Sony Pictures Television Inc. ALL RIGHTS RESERVED.</h2>
     </footer>
 </body>
