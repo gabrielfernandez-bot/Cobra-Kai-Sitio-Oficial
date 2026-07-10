@@ -4,35 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="contacto.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../contacto.css">
     <link rel="icon" type="image/png" href="../Img/Logo pestaña.png">
     <script src="https://kit.fontawesome.com/6cedd7e1a5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="logo">
+            <a id="aimg1" href="https://www.netflix.com"><img id="imgh1" src="../Img/netflix logo entero.png"
+                    width="150" height="60" alt=""></a>
+            <a id="aimg2" href="./index.html"><img id="imgh2" src="../Img/logopubli.png" width="250" height="60"
+                    alt=""></a>
+            <a id="aimg3" href="./index.html"><img id="imgh3" src="../Img/logopubliresp.png" width="250" height="60"
+                    alt=""></a>
 
-    <header>
-        <a id="aimg1" href="https://www.netflix.com"><img class="imgh1" src="../Img/netflix logo entero.png" width="150"
-                height="60" alt=""></a>
-        <a id="aimg1" href="./index.html"><img class="imgh" src="../Img/logopubli.png" width="250" height="60"
-                alt=""></a>
+        </div>
 
-        <nav class="navh">
-            <a href="../index.html"><strong>HOME</strong></a>
-            <a href="../Paginas/about.html"><strong>ACERCA DE</strong></a>
-            <a href="../Paginas/cast.html"><strong>PERSONAJES</strong></a>
-            <a href="../Paginas/seasons.html"><strong>TEMPORADAS</strong></a>
-            <a href="../Paginas/events.html"><strong>NOVEDADES</strong></a>
-            <a href="../Paginas/contacto.html"><strong>CONTACTO</strong></a>
-        </nav>
-    </header>
+        <!-- Checkbox oculto para la interactividad (versión sin JS) -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger-icon">&#9776;</label>
+
+        <ul class="nav-links">
+            <li><a href="../index.html"><strong>HOME</strong></a></li>
+            <li><a href="../Paginas/about.html"><strong>ACERCA DE</strong></a></li>
+            <li><a href="../Paginas/cast.html"><strong>PERSONAJES</strong></a></li>
+            <li><a href="../Paginas/seasons.html"><strong>TEMPORADAS</strong></a></li>
+            <li><a href="../Paginas/events.html"><strong>NOVEDADES</strong></a></li>
+            <li><a href="../Paginas/contacto.html"><strong>CONTACTO</strong></a></li>
+        </ul>
+    </nav>
 
     <main>
 
         <section class="secimg">
             <img class="imgmain1" src="../Img/bannercontacto.png" alt="imagenbanner">
         </section>
+
+        <section class="secimgresp">
+            <img class="imgmain1" src="../Img/Bannercontactoresp.jpg" alt="imagenbanner">
+            
+        </section>
+
 
 
         <section class="sectform">
@@ -75,15 +89,11 @@
 
     </main>
 
-    <footer>
-        <article class="separador">
-            <img class="imgsep" src="../Img/abstract-texture-background-wave-gold-metal-wall-free-photo.jpg" alt="">
-        </article>
-
+    <footer class="footerpc">
         <iframe data-testid="embed-iframe" style="border-radius:12px"
-            src="https://open.spotify.com/embed/playlist/37i9dQZF1DXal36n8FZoQm?utm_source=generator&theme=0&si=7674fc76b44242bd"
-            width="100%" height="152" frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DXal36n8FZoQm?utm_source=generator&theme=0&si=5982c6193ff9482a"
+            width="100%" height="352" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="speedy">
         </iframe>
 
         <article class="separador">
@@ -113,6 +123,43 @@
             <a id="afooter" href="../Paginas/error503.html"><strong>AYUDA</strong></a>
 
         </section>
-        <h2 id="pfooter">© 2024 Netflix / Sony Pictures Television Inc. ALL RIGHTS RESERVED.</h2>
+        <h2>© 2024 Netflix / Sony Pictures Television Inc. ALL RIGHTS RESERVED.</h2>
+    </footer>
+
+    <footer class="footerresp">
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DXal36n8FZoQm?utm_source=generator&theme=0&si=7674fc76b44242bd"
+            width="100%" height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+        </iframe>
+
+        <article class="separadorresp">
+            <img class="imgsepresp" src="../Img/abstract-texture-background-wave-gold-metal-wall-free-photo.jpg" alt="">
+        </article>
+
+        <img src="../Img/Logofooter.png" width="100" height="100" alt="">
+
+        <nav class="navh2resp">
+            <a class="aheadresp" href="https://www.facebook.com/CobraKaiSeries/" id="face"><i
+                    class="fa-brands fa-facebook-f fa-xl"></i></a>
+            <a class="aheadresp" href="https://x.com/CobraKaiSeries" id="twitter"><i
+                    class="fa-brands fa-x-twitter fa-xl"></i></a>
+            <a class="aheadresp" href="https://www.instagram.com/cobrakaiseries/" id="ig"><i
+                    class="fa-brands fa-instagram fa-xl"></i></a>
+            <a class="aheadresp" href="https://www.youtube.com/channel/UCe9DTWmhhxeKyYHL4mldGcA" id="youtube"><i
+                    class="fa-brands fa-youtube fa-xl"></i></a>
+            <a class="aheadresp" href="https://www.tiktok.com/@netflixlat" id="tiktok"><i
+                    class="fa-brands fa-tiktok fa-xl"></i></a>
+            <a class="aheadresp" href="mailto:cobrakai-dojo@hotmail.com" class="icono-correo" title="Abrir Outlook"
+                id="correo"><i class="fa-solid fa-envelope fa-xl"></i></a>
+        </nav>
+
+        <section class="sectfooterresp">
+            <a id="afooterresp" href="../Paginas/error503.html"><strong>PRIVACIDAD</strong></a>
+            <a id="afooterresp" href="../Paginas/error503.html"><strong>TERMINOS Y CONDICIONES</strong></a>
+            <a id="afooterresp" href="../Paginas/error503.html"><strong>AYUDA</strong></a>
+
+        </section>
+        <h2 class="h2resp">© 2024 Netflix / Sony Pictures Television Inc. ALL RIGHTS RESERVED.</h2>
     </footer>
 </body>

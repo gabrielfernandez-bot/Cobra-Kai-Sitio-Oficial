@@ -1,5 +1,3 @@
-
-
 .ptitle{
     color:beige;
     font-size: 40px;
@@ -45,11 +43,9 @@
     &::-webkit-scrollbar {
         display: none;
     }
-    box-sizing: border-box; /* El borde verde ya no sumará pixeles de más */
-    
-    /* En Flexbox horizontal, es mejor usar flex-basis en lugar de width */
+    box-sizing: border-box; 
     flex-basis: 50%; 
-    flex-shrink: 0; /* Evita que el navegador lo encoja a la fuerza */
+    flex-shrink: 0; 
 }
 
 .artepisodio{
@@ -111,9 +107,6 @@ ul{
     border-radius: 10px; height:750px; padding:10px;
 }
 
-#footers{
 
-    margin-top: 302rem;
-}
 
 

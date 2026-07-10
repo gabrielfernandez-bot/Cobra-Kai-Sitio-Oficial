@@ -93,7 +93,8 @@ body{
     position: absolute;
     top: 100%;
     right: 0;
-    background: #333;
+    background: black;
+    border:1px solid silver;
     margin: 0;
     padding: 1rem;
     align-items: center;
@@ -117,7 +118,7 @@ body{
     gap: 1.5rem;
     width: 100%;
     align-items: center;
-    padding: 2rem 0;
+    padding:0;
   }
 
   #imgh1 {
@@ -884,10 +885,27 @@ body{
   .footerresp{
     display:none;
   }
+
+
+  a:hover{
+    
+    color:brown;
+    text-decoration: underline;
+    transition:1s
+ }
+
+ #aimg1:hover{
+
+    scale:1.5;
+ }
+ 
+ #imgh1:hover{
+    scale: 1.2;
+ }
+
+ #imgh3:hover{
+    scale: 1.2;
+ }
 }
 
-a:hover{
-  color:red;
-  transition:1s;
-  text-decoration: none;
-}
+

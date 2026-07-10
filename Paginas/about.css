@@ -1,21 +1,11 @@
+/*PC (específico Acerca de)*/
+@media(1024px< width <= 1920px){
 
+  .secvideosresp{
+    display:none;
+  }
 
-.secbanner{
-   
-    height:40rem;
-    width:100%;
-    margin-top:-1;
-    z-index: 10;
-}
-
-
-.imgmain1{ 
-    height:39rem;
-    width:100%;
-}
-
-
-.secvideos{
+  .secvideos{
     
    display: flex;
    flex-direction: column;
@@ -26,10 +16,9 @@
    background-color: rgba(144, 142, 142, 0.2);
    padding:1rem;
    border-radius: 0.7rem;
-   
-}
+  }
 
-.artvideos{
+  .artvideos{
     display:flex;
     flex-direction: row;
     position:relative;
@@ -38,46 +27,34 @@
     align-items: center;
     padding:0;
     width:100%;
-}
-
-.imgmain1{
-    height:100%;
-    width:100%;
-}
-
-.imgh{
-    margin-top:0.5rem;
-    
-    margin-left: 21.6rem;
-    
-}
-
-
-.artlist{
- 
- display: flex;
- flex-direction: column;
- gap:1rem;
- 
- overflow-y: auto;
- margin:1rem;
- &::-webkit-scrollbar {
-    display: none;
   }
 
-}
+  .artlist{
+ 
+   display: flex;
+   flex-direction: column;
+   gap:1rem;
+   height:38rem;
+   overflow-y: auto;
+   margin:0;
+   &::-webkit-scrollbar {
+    display: none;
+    }
+  }
 
+  .iframeindex{
+    margin-left:1rem;
+  }
 
-
-h1{
+  h1{
   color:beige;
   font-family: Bahnschrift Light; 
   text-align: center; 
   font-size: 24px;
   text-decoration: none;
-}
+ }
 
-.secgeneral{
+ .secgeneral{
  display:flex;
  flex-direction: row;
  gap:1rem;
@@ -86,9 +63,9 @@ h1{
  width:90%;
  background-color: rgba(144, 142, 142, 0.2);
  border-radius: 0.7rem;
-}
+ }
 
-.fichatecnicagral{
+ .fichatecnicagral{
  display:flex;
  flex-direction: column;
  gap:1rem;
@@ -97,85 +74,60 @@ h1{
  padding:1rem;
  border:2px solid beige;
  border-radius: 0.7rem;
- 
-}
+ }
 
-.fichatecaux{
- display:flex;
- flex-direction: row;
- 
- padding:1rem;
- 
-}
-
-.ficha1{
- display:flex;
- flex-direction: column;
- 
- 
-}
-
-.ficha2{
- display:flex;
- flex-direction: column;
- 
- 
-}
-
-#pftitle{
+ #pftitle{
   color: whitesmoke;
   font-family: Bahnschrift Light; 
   text-align: center; 
   font-size: 32px;
   text-decoration: underline;
+ }
 
-}
+ .fichatecaux{
+ display:flex;
+ flex-direction: row;
+ 
+ padding:1rem;
+ }
 
-#lititle{
+ .ficha1{
+ display:flex;
+ flex-direction: column;
+  }
+
+  .ficha2{
+ display:flex;
+ flex-direction: column;
+ }
+
+ .list{
+    list-style: none; 
+    padding:0;
+    margin:0;
+  }
+ 
+ #lititle{
   color: whitesmoke;
   font-family: Bahnschrift Light; 
   text-align: center; 
   font-size: 24px;
   text-decoration: none;
 
-}
+ }
 
-#listl{
+ #listl{
   color: beige;
   font-family: Bahnschrift Light; 
   text-align: center; 
   font-size: 20px;
   text-decoration: none;
-}
+  list-style: none; 
+  padding:0; 
+  margin:0;
+  }
 
-#stitle1{
-  color: whitesmoke;
-  font-family: Bahnschrift Light; 
-  text-align: center; 
-  font-size: 32px;
-  text-decoration: underline;
-
-}
-
-#stitle2{
-  color: whitesmoke;
-  font-family: Bahnschrift Light; 
-  text-align: center; 
-  font-size: 24px;
-  text-decoration: none;
-  margin-left: 0;
-
-}
-
-blockquote{
-  color: beige;
-  font-family: Bahnschrift Light; 
-  text-align: center; 
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.sinopsis{
+  .sinopsis{
     display:flex;
     flex-direction: column;
     overflow: auto; 
@@ -185,73 +137,221 @@ blockquote{
     border:2px solid beige;
     border-radius: 0.7rem;
    
-}
+   }
+   
 
-.sinopsis::-webkit-scrollbar {
-    display: none;
-}
-
-.list{list-style: none; 
-    padding:0;
-    margin:0;
-}
-#listl{ list-style: none; 
-    padding:0; 
-    margin:0;
-}
-.title1{background-color: rgba(77,77,77,0.2);
-     border: transparent; 
-     height: 30px; width: px; 
-     margin-right: -0px; 
-     text-decoration: underline;
-}
-.title2{ background-color: rgba(77,77,77,0.2); 
-    text-align: center;
-     margin-top: 20px; 
-}
-
-#stitle{
-  color: rgb(221, 221, 115);
+   #stitle1{
+  color: whitesmoke;
   font-family: Bahnschrift Light; 
   text-align: center; 
   font-size: 32px;
+  text-decoration: underline;
+
+   }
+
+  #stitle2{
+  color: whitesmoke;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 24px;
   text-decoration: none;
-}
+  margin-left: 0;
 
-p{ text-align: left; 
-font-weight: bold; 
-}
+  }
 
-blockquote{text-align: justify; 
-}
-
-.secbanner{
-  display:flex;
-  flex-direction: row;
-  gap:1rem;
-  border-radius: 0.7rem;
-  height:43rem;
-  max-width: 100%;
-  padding: 0;
-  background-color:transparent;
-  margin-top:0rem;
-}
-
-.artlist{
- display: flex;
- flex-direction: column;
- gap:1rem;
- height:38rem;
- overflow-y: auto;
- margin:1rem;
- &::-webkit-scrollbar {
-    display: none;
+  blockquote{
+  color: beige;
+  font-family: Bahnschrift Light; 
+  text-align: justify; 
+  font-size: 16px;
+  text-decoration: none;
   }
 }
 
-.artiframe{
- height:30rem;
- margin:1rem;
+/* Adaptación para móviles (Específico Acerca de) */
+@media (350px < width <= 1024px) {
+
+ .secvideos{
+    display:none;
+ }
+
+ .secvideosresp {
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    gap: 1rem;
+    width: 100%; 
+    margin: 2rem auto; 
+    background-color: rgba(144, 142, 142, 0.2);
+    padding: 1rem;
+    border-radius: 0.7rem;
+  }
+  
+  .artvideosresp {
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    align-items: center;
+    gap: 1.5rem; 
+    padding: 0;
+    width: 100%;
+  }
+
+  .artlistresp {
+    display: flex;
+    flex-direction: row;       
+    gap: 1rem;
+    width: 100%; 
+    height: auto;              
+    overflow-x: auto;          
+    overflow-y: hidden;       
+    margin: 0;
+    padding-bottom: 0.5rem;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+  }
+
+  .artlistresp::-webkit-scrollbar {
+    display: none;
+  }
+
+  .iframeindexresp {
+    margin-left: 0; 
+    width: 100%; 
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  #h1resp{
+
+    color: beige;
+    font-family: "Bahnschrift Light", sans-serif; 
+    text-align: center; 
+    font-size: 20px; 
+    text-decoration: none;
+  }
+
+  .secgeneral{
+    display:none;
+  }
+  
+  .secgeneralresp{
+ display:flex;
+ flex-direction: column;
+ gap:1rem;
+ padding:1rem;
+ margin-top: 2rem;
+ width:100%;
+ background-color: rgba(144, 142, 142, 0.2);
+ border-radius: 0.7rem;
+ }
+
+ .fichatecnicagralresp{
+ display:flex;
+ flex-direction: column;
+ gap:1rem;
+ width:100%;
+ padding:1rem;
+ border:2px solid beige;
+ border-radius: 0.7rem;
+ }
+
+ #pftitleresp{
+  color: whitesmoke;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 32px;
+  text-decoration: underline;
+ }
+
+ .fichatecauxresp{
+ display:flex;
+ flex-direction: row;
+ 
+ padding:1rem;
+ }
+
+ .ficha1resp{
+ display:flex;
+ flex-direction: column;
+  }
+
+  .ficha2resp{
+ display:flex;
+ flex-direction: column;
+ }
+
+ .listresp{
+    list-style: none; 
+    padding:0;
+    margin:0;
+  }
+ 
+ #lititleresp{
+  color: whitesmoke;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 24px;
+  text-decoration: none;
+
+ }
+
+ #listlresp{
+  color: beige;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none; 
+  padding:0; 
+  margin:0;
+  }
+
+  .sinopsisresp{
+    display:flex;
+    flex-direction: column;
+    overflow: auto; 
+    width:100%;
+    height:58rem;
+    padding:1rem;
+    border:2px solid beige;
+    border-radius: 0.7rem;
+   
+   }
+   
+
+   #stitle1resp{
+  color: whitesmoke;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 32px;
+  text-decoration: underline;
+
+   }
+
+  #stitle2resp{
+  color: whitesmoke;
+  font-family: Bahnschrift Light; 
+  text-align: center; 
+  font-size: 24px;
+  text-decoration: none;
+  margin-left: 0;
+
+  }
+
+  .blockquoteresp{
+  color: beige;
+  font-family: Bahnschrift Light; 
+  text-align: justify; 
+  font-size: 16px;
+  text-decoration: none;
+  }
+
 
 }
+
 

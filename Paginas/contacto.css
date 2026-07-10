@@ -1,6 +1,6 @@
 
 
-
+@media (1024px < width <= 1920px){
 .sectform{
     background-image: url(../Img/dojocontacto.png);
     background-position:center;
@@ -45,6 +45,61 @@ form{
     filter: brightness(250%);
     border-radius: 0.7rem;
     padding:0.81rem;
+}
+}
+
+@media (350px < width <= 1024px) {
+ 
+.sectform{
+    background-image: url(../Img/dojocontacto.png);
+    background-position:center;
+    background-attachment:scroll;
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:90%;
+    height:100%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    align-items: center;
+    gap:1rem;
+    padding:1rem;
+    filter: brightness(70%);
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   gap:2rem;
+   align-items: center;
+   text-align: center;
+   margin:0;
+   
+   padding:1rem;
+   border-radius: 0.7rem;
+   color:rgb(5, 5, 5);
+   width:100%;
+   height:50%;
+   background-color: rgba(77,77,77,0.5);
+   filter: brightness(280%);
+   border:1px solid silver;
+
+}
+
+.Información{
+    display: felx;
+    flex-direction: column;
+    gap:3rem;
+    width:100%;
+    height:50%;
+    background-color: rgba(77,77,77,0.5);
+    filter: brightness(250%);
+    border-radius: 0.7rem;
+    padding:0.81rem;
+    border:1px solid silver;
+}
+
 }
 
 .imgcont{
