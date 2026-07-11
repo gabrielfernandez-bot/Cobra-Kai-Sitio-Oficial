@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body{
  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../Img/Fondo\ elenco\ 1.jpg); 
  background-size: cover; 
@@ -6,6 +14,9 @@ body{
  background-repeat: no-repeat;
   -ms-overflow-style: none;  /* Oculta la barra en Internet Explorer y Edge */
  scrollbar-width: none;  
+  margin: 0;
+    padding: 0;
+    width:100%;
 }
 
 body::-webkit-scrollbar {
@@ -17,7 +28,9 @@ main{
     
 }
 
-#acobra{
+@media(1024px < width <=1920px){
+
+    #acobra{
     color:darkslategray; 
     margin:0; 
     margin-right:80rem; 
@@ -28,54 +41,50 @@ main{
     font-family: 20px; 
     border-radius: 0.3rem;
     text-decoration: none;
-}
+    }
 
-#acobra:hover{
+    #acobra:hover{
     color:beige; 
     background-color: darkslategray;
     scale: 1.2; 
     opacity:0.7;
     text-decoration: underline;
     transition: 0.7s;
-}
+    }
 
-
-
-.cobragral{
+    .cobragral{
     display:flex;
     flex-direction: column;
     gap:1rem;
     align-items: center;
     text-align:center;
-}
+    }
 
-.artcobras{
+    .artcobras{
     display:flex;
     flex-direction: column;
     gap:1rem;
     align-items: center;
     text-align:center;
     padding:1rem;
-}
+    }
 
-#titlesen{
-
+    #titlesen{
     font-family: Bahnschrift Light;
     font-size: 40px;
     color:beige;
-}
+    }
 
-.artpjes{
+    .artpjes{
     display:flex;
     flex-direction:row;
     gap:1rem;
     align-items: center;
     text-align:center;
     width:100%;
-    
+    }
 
-}
-.artp1{
+    .artp1{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -87,10 +96,10 @@ main{
     height:42rem;
     border-radius: 0.7rem;
     background:rgba(77,77,77,0.3);
-}
+    }
 
 
-.artp2{
+    .artp2{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -102,58 +111,195 @@ main{
     padding:1rem;
     border-radius: 0.7rem;
     background:rgba(77,77,77,0.3);
-}
+    }
 
-.kreese{
+    .imgpje {
     border: transparent;
-}
+    max-width: 100%;
+    height: auto; 
+    object-fit: contain;
+    }
 
-.silver{
-    border: transparent;
-}
+    h1{
+    color:aliceblue;
+    font-family: Bahnschrift Light; 
+    text-align: center; 
+    font-size: 20px;
+    text-decoration: none;
+    }
 
-.imgk{
+    .qnom{
+    color:aliceblue;
+    font-family: Bahnschrift Light; 
+    text-align: center; 
+    font-size: 18px;
+    text-decoration: none;
+    margin-top:-0.9rem;
+    }
 
-    border: transparent;;
-}
-
-h1{
-  color:aliceblue;
-  font-family: Bahnschrift Light; 
-  text-align: center; 
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.qnom{
-  color:aliceblue;
-  font-family: Bahnschrift Light; 
-  text-align: center; 
-  font-size: 18px;
-  text-decoration: none;
-  margin-top:-0.9rem;
-}
-
-.title{
+    .title{
     display:flex;
     flex-direction: column;
     align-items: center;
     text-align:center;
     font-size: 18px;
+    }
 
-}
-
-.b1{
+    .b1{
     text-align: justify;
     font-family: serif;
     font-size: 17.1px;
     color:aliceblue;
-}
+    }
 
-.b2{
+   .b2{
    text-align: justify;
    font-family: serif;
    font-size: 18px;
    color:aliceblue;
+   }
 }
 
+
+@media(350px < width <=1024px){
+
+    #acobra{
+    color:darkslategray; 
+    margin:0 auto; 
+    padding:0.5rem;
+    background-color: beige;   
+    align-items: center;
+    text-align:center; 
+    font-family: 20px; 
+    border-radius: 0.3rem;
+    text-decoration: none;
+    }
+
+    #acobra:hover{
+    color:beige; 
+    background-color: darkslategray;
+    scale: 1.2; 
+    opacity:0.7;
+    text-decoration: underline;
+    transition: 0.7s;
+    }
+
+    .cobragral{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    }
+
+    .artcobras{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    }
+
+    #titlesen{
+    font-family: Bahnschrift Light;
+    font-size: 40px;
+    color:beige;
+    text-decoration: underline;
+    }
+
+    .artpjes{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    align-items: center;
+    text-align:center;
+    width:100%;
+    max-width: 100%;   
+    margin: 0;
+    }
+
+    .artp1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    gap:0;
+    border: 2px solid gold;
+    width:100%;
+    max-width: 100%;
+    padding:1rem;
+    flex:1;
+    border-radius: 0.7rem;
+    background:rgba(77,77,77,0.3);
+    margin:0;
+    }
+
+
+    .artp2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    gap:0;
+    border: 2px solid gold;
+    width:100%;
+    max-width: 100%;
+    flex:1;
+    padding:1rem;
+    border-radius: 0.7rem;
+    background:rgba(77,77,77,0.3);
+    margin:0;
+    }
+
+    .imgpje {
+    border: transparent;
+    max-width: 100%;
+    height: auto; 
+    object-fit: contain;
+    }
+
+    h1{
+    color:aliceblue;
+    font-family: Bahnschrift Light; 
+    text-align: center; 
+    font-size: 20px;
+    text-decoration: none;
+    }
+
+    .qnom{
+    color:aliceblue;
+    font-family: Bahnschrift Light; 
+    text-align: center; 
+    font-size: 18px;
+    text-decoration: none;
+    margin-top:-0.9rem;
+    }
+
+    .title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    font-size: 18px;
+    }
+
+    .b1{
+    text-align: justify;
+    font-family: serif;
+    font-size: 18px;
+    color:aliceblue;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    }
+
+   .b2{
+   text-align: justify;
+   font-family: serif;
+   font-size: 18px;
+   color:aliceblue;
+   overflow-wrap: break-word;
+    word-break: break-word;
+   }
+}

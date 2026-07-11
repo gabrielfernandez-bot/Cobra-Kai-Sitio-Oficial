@@ -46,7 +46,15 @@
     </section>
 
 
-    <iframe src="../Paginas/castmain.html" class="iframecast" name="marcocast" frameborder="0"></iframe>
+    <iframe src="../Paginas/castmain.html" id="iframecast" name="marcocast" style="width: 100%; border: none;">
+      <script>
+        const iframe = document.getElementById('iframecast');
+        iframe.onload = function () {
+          // Ajusta la altura del iframe al contenido interno
+          iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+        };
+      </script>
+    </iframe>
 
   </main>
 

@@ -1,16 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Img/Fondo\ elenco\ 2.jpg); 
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../Img/Fondo\ elenco\ 2.jpg); 
     background-size: cover; 
     background-position: center; 
     background-attachment:fixed; 
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width:100%;
 }
 
 main{ 
     justify-content: center;
+    width: 100%;
+    max-width: 100%; /* Evita que se desborde */
+    box-sizing: border-box;
 }
 
-#amiyagi{
+@media (1025px < width <=1920px){
+
+    #amiyagi{
     color:rgb(91, 3, 3); 
     margin:0; 
     margin-right:80rem; 
@@ -20,131 +36,263 @@ main{
     text-align:center; 
     font-family: 20px; 
     border-radius: 0.3rem;
-}
+   }
 
-#amiyagi:hover{
+    #amiyagi:hover{
     color:beige; 
     background-color: rgb(91, 3, 3);
     scale: 1.05; 
     opacity:0.7;
     transition: 0.7s;
-}
+   }
 
-
-
-.miyagigral{
+    .miyagigral{
     display:flex;
     flex-direction: column;
     gap:1rem;
     align-items: center;
     text-align:center;
-}
+    width: 100%;
+    max-width: 100%; /* Evita que se desborde */
+    box-sizing: border-box;
+    }
 
-.artmiyagis{
+    .artmiyagis{
     display:flex;
     flex-direction: column;
     gap:1rem;
     align-items: center;
     text-align:center;
     padding:1rem;
-}
+    }
 
-#titlesen{
+    #titlesen{
 
     font-family: Bahnschrift Light;
     font-size: 40px;
-    color:beige;
-}
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    }
 
-.artpjes{
+    .artpjes{
     display:flex;
     flex-direction:row;
     gap:1rem;
     align-items: flex-start;
     text-align:center;
     width:100%;
+    }
+
+    .artp1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    gap:0;
+    border: 2px solid beige;
+    width:50%;
+    flex:1;
+    padding:1rem;
     
+    border-radius: 0.7rem;
+    background: rgba(159, 158, 158, 0.3);
+    filter: brightness(150%);
+    }
 
-}
-.artp1{
+
+    .artp2{
     display:flex;
     flex-direction: column;
     align-items: center;
     text-align:center;
     gap:0;
     border: 2px solid beige;
+    flex:1;
     width:50%;
-    padding:1rem;
-    height:56rem;
-    border-radius: 0.7rem;
-    background:rgba(77,77,77,0.3);
-}
-
-
-.artp2{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    text-align:center;
-    gap:0;
-    border: 2px solid beige;
-    width:50%;
-    height:56rem;
+    
     padding:1rem;
     border-radius: 0.7rem;
-    background:rgba(77,77,77,0.3);
+    background: rgba(159, 158, 158, 0.3);
+    filter: brightness(150%);
     margin:0;
-}
+    }
 
-.kreese{
+   .imgpje {
     border: transparent;
-}
+    max-width: 100%;
+    height: auto; 
+    object-fit: contain;
+  }
 
-.silver{
-    border: transparent;
-    height:22rem;
-}
-
-.imgk{
-
-    border: transparent;;
-}
-
-h1{
-  color:aliceblue;
+  h1{
+  color:rgb(0, 0, 0);
   font-family: Bahnschrift Light; 
   text-align: center; 
   font-size: 20px;
   text-decoration: underline;
-}
+  font-weight: bolder;
+  }
 
-.qnom{
-  color:aliceblue;
+  .qnom{
+  color:rgb(0, 0, 0);
   font-family: Bahnschrift Light; 
   text-align: center; 
   font-size: 18px;
   text-decoration: none;
   margin-top:-0.9rem;
-}
+  font-weight: bolder;
+  }
 
-.title{
+    .title{
     display:flex;
     flex-direction: column;
     align-items: center;
     text-align:center;
     font-size: 18px;
+    }
 
-}
-
-.b1,.b2{
+    .b1,.b2{
     text-align: justify;
     font-family: serif;
-    color:aliceblue;
+    color:rgb(4, 4, 4);
     font-size: 16.61px;
-}
+    font-weight: bolder;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    }
 
-/*.b2{
+   /*.b2{
    text-align: justify;
    font-family: serif;
    color:aliceblue;
-}*/
+   }*/
+}
+
+@media (350px < width <= 1024px) {
+
+  #amiyagi {
+    color: rgb(91, 3, 3); 
+    margin: 0 auto; 
+    padding: 0.5rem;
+    background-color: beige;   
+    align-items: center;
+    text-align: center; 
+    font-size: 20px; 
+    border-radius: 0.3rem;
+  }
+
+  #amiyagi:hover {
+    color: beige; 
+    background-color: rgb(91, 3, 3);
+    scale: 1.05; 
+    opacity: 0.7;
+    transition: 0.7s;
+  }
+
+  .miyagigral {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .artmiyagis {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  #titlesen {
+    font-family: "Bahnschrift Light", sans-serif;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+
+  .artpjes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .artp1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+    border: 2px solid beige;
+    width: 100%;
+    padding: 1rem;
+    flex:1;
+    border-radius: 0.7rem;
+    background: rgba(159, 158, 158, 0.3);
+    filter: brightness(150%);
+  }
+
+  .artp2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+    border: 2px solid beige;
+    width: 100%;
+    flex:1;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    background: rgba(159, 158, 158, 0.3);
+    filter: brightness(150%);
+    margin: 0;
+  }
+
+  .imgpje {
+    border: transparent;
+    max-width: 100%;
+    height: auto; 
+    object-fit: contain;
+  }
+
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family: "Bahnschrift Light", sans-serif; 
+    text-align: center; 
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .qnom {
+    color: rgb(0, 0, 0);
+    font-family: "Bahnschrift Light", sans-serif; 
+    text-align: center; 
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: -0.9rem;
+    font-weight: bolder;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .b1, .b2 {
+    text-align: justify;
+    font-family: serif;
+    color: rgb(0, 0, 0);
+    font-size: 16.61px;
+    font-weight: bolder;
+  }
+}

@@ -1,5 +1,6 @@
 *{
  cursor: url('../Img/cursor.png'), auto !important;
+ box-sizing: border-box;
 }
 
 body{
@@ -8,6 +9,7 @@ body{
     background-position: center; 
     background-attachment: fixed;
     background-repeat: no-repeat;
+    width:100%;
 
 }
 
@@ -17,10 +19,13 @@ main{
     align-items: center; 
     text-align:center;
     border: 3px sold gold;
-    
+    width:100%;
 }
 
-.dojoscont{
+
+@media(1024px < width <= 1920px){
+
+    .dojoscont{
     display:flex; 
     flex-direction: row; 
     align-items: center; 
@@ -30,28 +35,106 @@ main{
     height:20rem; 
     border: transparent; 
     margin:0; 
-    margin-top:15rem;
-}
+    
+   }
 
-.dojoscont .miyagi{
+    .dojoscont .miyagi{
     padding-left: 0;
-}
+    }
 
-.miyagi:hover{
+    .cobra,.miyagi{
+    border: transparent;
+    max-width: 100%;
+    height: auto; 
+    object-fit: contain;
+    }
+
+    .miyagi:hover{
     scale: 1.05; 
     opacity:0.7;
     transition: 0.7s;
-}
+    }
 
-.cobra:hover{
+    .cobra:hover{
     scale: 1.05; 
     opacity:0.7;
     transition: 0.7s;
-}
+    }
 
-h1{
+    h1{
     color:gold; 
     text-decoration: underline; 
     padding-top: 0;
     font-size:60px;
+    }
+
 }
+
+@media (350px < width <= 1024px){
+
+    *{
+      cursor:alias !important;
+      
+    } 
+
+   body{
+    background-image:  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../Img/bannermobile.jpg); 
+    background-size:cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+    }
+
+    main{
+     width:100%;   
+    }
+
+  .dojoscont{
+    display:flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align:center;
+    gap:3rem; 
+    width: 100%; 
+    height:auto; 
+    border: transparent; 
+    margin:0; 
+    
+   }
+
+   
+
+    .cobra,.miyagi{
+    border: transparent;
+    max-width: 70%;
+    height: auto; 
+    object-fit: contain;
+    
+    }
+
+    .miyagi:hover{
+    scale: 1.05; 
+    opacity:0.7;
+    transition: 0.7s;
+    }
+
+    .cobra:hover{
+    scale: 1.05; 
+    opacity:0.7;
+    transition: 0.7s;
+    }
+
+    h1{
+    color:rgb(0, 0, 0); 
+    text-decoration: underline; 
+    padding-top: 0;
+    font-size:53px;
+    }
+
+}
+
+
