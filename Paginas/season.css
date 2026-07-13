@@ -1,3 +1,10 @@
+*{
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 8px;
+  }
+}
+
 @media(1024px < width <= 1920px){
     .temps{
       display: flex;
@@ -58,13 +65,13 @@
      overflow-y: auto;
      box-sizing: border-box; 
      flex-shrink: 0; 
-     
-    }
-
-    &::-webkit-scrollbar {
+      &::-webkit-scrollbar {
      display: none;
+     }
+
     }
 
+   
     .artepisodio{
       background-color:#af5138;
       border-radius: 0.5rem;
@@ -108,7 +115,7 @@
 
 }
 
-@media (350px < width <=1024px){
+@media (300px < width <=1024px){
 
     .temps{
       display: flex;
@@ -117,14 +124,12 @@
       text-align: center;
       position:relative;
       gap:2rem;
-      width:89%;
+      width:90%;
       margin-top: 5rem;
       background-color: rgba(144, 142, 142, 0.2);
       padding:1rem;
       padding-top:2rem;
       border-radius: 0.7rem;
-      
-      
     }
 
     .ptitle{
@@ -142,7 +147,7 @@
       align-items:center;
       text-align: center;
       padding:1.5rem;
-      width: 88%;
+      width: 90%;
       max-width:1200px;
       height:50rem;
       box-sizing: border-box;
@@ -151,7 +156,7 @@
     }
 
     .imgt{
-      max-width: 40%;
+      max-width: 100%;
       width:100%;
       flex:1; 
       object-fit:cover; 
@@ -169,12 +174,13 @@
      overflow-y: auto;
      box-sizing: border-box; 
      flex-shrink: 0; 
+     &::-webkit-scrollbar {
+     display: none;
+     }
      
     }
 
-    &::-webkit-scrollbar {
-     display: none;
-    }
+    
 
     .artepisodio{
       background-color:#af5138;
@@ -207,7 +213,7 @@
   p{
      color:aliceblue;
      font-family:'Bahnschrift Light', sans-serif; 
-     text-align: center; 
+     text-align:justify;
      font-size: 18px;
      text-decoration: none;
      overflow-wrap: break-word;

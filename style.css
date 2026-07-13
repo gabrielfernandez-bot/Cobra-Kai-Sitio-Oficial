@@ -2,7 +2,13 @@
   padding:0;
   margin:0;
   box-sizing: border-box;
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 8px;
+  }
+
 }
+
 
 body{
   background-image: url(./Img/Fondo1.jpg);
@@ -23,16 +29,16 @@ body{
   
 }
 
-/* Ocultar el checkbox */
+
 #menu-toggle {
   display: none;
 }
 
-/* Ícono hamburguesa */
+
 .hamburger-icon {
   font-size: 30px;
   cursor: pointer;
-  display: none; /* Se oculta en escritorio */
+  display: none; 
 }
 
 .nav-links {
@@ -42,7 +48,6 @@ body{
   margin:0;
   font-family: Bahnschrift Light;
   font-size: 14px;
- 
 }
 
 .logo{
@@ -54,375 +59,6 @@ body{
   color: white;
   text-decoration: none;
 }
-
-/* Adaptación para móviles */
-@media (350px < width <= 1024px) {
-  body {
-    width: 100%; /* Cambiado a 100% para evitar saltos extraños de margen */
-    padding: 0 1%; /* Mantiene el aire visual que querías con el 98% */
-    margin: 0;
-  }
-
-  main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .hamburger-icon {
-    display: block; 
-  }
-
-  .navbar {
-    border-radius: 0.5rem 0.5rem 0 0;
-    z-index: 10; /* Subido para asegurar que tape contenidos absolutos */
-  }
-
-  .logo {
-    width: 80%;
-    padding: 0;
-  }
-
-  .nav-links {
-    display: none; 
-    flex-direction: column;
-    width: 100%; /* Cambiado de 30% a 100% para que sea legible en móviles */
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background: black;
-    border:1px solid silver;
-    margin: 0;
-    padding: 1rem;
-    align-items: center;
-    text-align: right;
-    z-index: 10;
-    font-size: 24px;
-  }
-
-  #menu-toggle:checked ~ .nav-links {
-    display: flex;
-  }
-
-  /* --- SECCIÓN HERO / IMÁGENES --- */
-  .secimg {
-    display: none;
-  }
-
-  .secimgresp {
-    display: flex;
-    flex-direction: column; /* Cambiado a column para pantallas chicas */
-    gap: 1.5rem;
-    width: 100%;
-    align-items: center;
-    padding:0;
-  }
-
-  #imgh1 {
-    display:none;
-  }
-
-  #imgh2{
-    width: 80%; /* Más grandes en mobile */
-    height:80%;
-    max-width: 250px;
-    margin: 0;
-  }
-
-  #imgh3 {
-    display:none;
-  }
-
-  .imgmain1 {
-    width: 100%;
-    height: auto; /* Evita que la imagen se estire feo */
-  }
-
-  /* --- ARTÍCULOS Y SECCIONES --- */
-  .sect1r {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    align-items: center;
-    text-align: center;
-    border-radius: 0.7rem;
-    width: 100%;
-    padding: 2rem 1rem;
-    margin-top: 2rem; /* Eliminado el margin-top: 45rem */
-    background-color: rgba(178, 178, 182, 0.1);
-  }
-
-  .artsect1r {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    width: 100%;
-    gap: 1rem;
-  }
-  
-  .artvideor {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .iframer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-
-  .artacercar {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  #blockquoter {
-    text-align: justify;
-    font-family: 'Bahnschrift', sans-serif;
-    color: whitesmoke;
-    font-size: 18px;
-    margin: 0;
-  }
-
-  #ptitler {
-    font-family: 'Bahnschrift', sans-serif; 
-    font-size: 28px;
-    color: whitesmoke;
-  }
-
-  #psubtitler {
-    font-family: 'Bahnschrift', sans-serif; 
-    font-size: 18px;
-    color: whitesmoke;
-  }
-
-  h1 {
-    color: rgb(221, 221, 115);
-    font-family: 'Bahnschrift', sans-serif; 
-    text-align: center; 
-    font-size: 22px;
-  }
-  
-  /* Ocultar elementos desktop */
-  .sect1, .separador, .sectnov, .sect2 {
-    display: none;
-  }
-  
-  .separadorresp{
-    height:0.2rem;
-    width:80%;
-    border-radius: 0.2rem;
-  }
-
-  .imgsepresp{
-    height:100%;
-    width:100%;
-    border-radius: 0.2rem;
-  }
-
-  /* --- SECCIÓN NOVEDADES --- */
-  .sectnovr {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 1rem 0;
-    gap: 1rem;
-  }
-
-  .artnovmainr {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    width: 100%;
-    background-color: rgba(178, 178, 182, 0.1);
-    padding: 2rem 1rem;
-    border-radius: 0.5rem;
-  }
-
-  .artnov1r, .artnov2r, .artnov3r, .artnov4r {
-    position: relative;
-    width: 90%; /* Más ancho para aprovechar el viewport móvil */
-    aspect-ratio: 4 / 3; /* En vez de height fijo, usamos proporción */
-    box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.3);
-  }
-
-  .imgnovr {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Evita que las imágenes de novedades se deformen */
-  }
-
-  /* --- SECCIÓN PUBLICIDAD / CONTACTO --- */
-  .sect2r {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 2rem;
-    width: 100%;
-    margin: 2rem 0;
-  } 
-
-  .artmainpubli1r {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-
-    #acontactr{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    width: 12rem;
-    height: 3rem;
-    background-color: chocolate;
-    color: white;
-    border-radius: 0.3rem;
-    text-decoration: none;
-    margin: 1rem auto; /* Centrado fluido */
-    position:absolute;
-    top:60%;
-    right: 30%;
-    }
-
-   #acontactr:hover {
-    background-color: rgba(57, 62, 31, 0.8);
-    color: aqua;
-    }
-  }
-
-  .cover {
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Un poco más oscuro para que se lea el texto */
-    pointer-events: none; 
-  }
-
-  .imgpubli1r {
-    display: block;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  /* Corrección de textos sobrepuestos en la publicidad */
-  #ptitle1r {
-    position: absolute;
-    font-family: 'Bahnschrift', sans-serif; 
-    font-size: 24px;
-    color: whitesmoke;
-    z-index: 3;
-    top: 10%;
-    left: 5%;
-  }
-
-  #blockquote1r {
-    position: absolute;
-    font-family: 'Bahnschrift', sans-serif;
-    color: whitesmoke;
-    font-size: 16px ;
-    z-index: 3;
-    bottom: 10%;
-    left: 5%;
-    right: 5%;
-  }
-
-  .artmainpubli2r {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-  }
-
-  .imgpubli2r {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .footerresp{
-    color:whitesmoke;
-    display: flex;
-    flex-direction: column;
-    gap:1rem;
-    background-color:transparent;
-    padding:1rem;
-    align-items: center;
-    text-align: center;
-    max-width:100%;
-    margin-top: 2rem;
-  }
-
- .navh2resp{
- display: inline-flex;
- position:relative;
- z-index: 2;
- text-align: right;
- padding: 1rem;
- border-radius: 1rem;
- }
-
- .sectfooterresp{
-    display: flex;
-    flex-direction: row;
-    gap:1rem;
-  }
-
-  #afooterresp{
-    color:white;
-    align-items: center;
-    text-align: center;
-    font-family: Helvetica;
-    font-size: 16px;
-  }
-
- #afooterresp:not(:last-child)::after {
-    content: "|";
-    margin-left: 10px;
-    color: #ccc;
-  }
-
-  #afooterresp:hover{
-    scale:unset;
-    text-decoration: none;
-    font-family: Helvetica;
-    color:red;
-  }
-
-  .aheadresp{
-    color:white;
-  }
-
-  .aheadresp:hover{
-    color:blue;
-  }
-
-  .h2resp{
-    font-size: 14;
-    font-family: Helvetica;
-  }
-
-  .footerpc{
-    display:none;
-  }
-}
-
-
-
 
 /*PC*/
 @media(1024px < width <= 1920px){
@@ -441,7 +77,7 @@ body{
  }
 
  #imgh1{
-  width: 30%;
+  width: auto;
   max-width:150px;
   left:0;
   margin-right:1%;
@@ -452,7 +88,7 @@ body{
   }
 
  #imgh3{
-  width: 47%;
+  width: auto;
   max-width:250px;
   margin-left: 50%;
  }
@@ -907,5 +543,373 @@ body{
     scale: 1.2;
  }
 }
+
+
+
+
+/* Adaptación para móviles */
+@media (300px <= width <= 1024px) {
+  body {
+    width: 100%; 
+    padding: 0 1%; 
+    margin: 0;
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hamburger-icon {
+    display: block; 
+  }
+
+  .navbar {
+    border-radius: 0.5rem 0.5rem 0 0;
+    z-index: 10; 
+  }
+
+  .logo {
+    width: 80%;
+    padding: 0;
+  }
+
+  .nav-links {
+    display: none; 
+    flex-direction: column;
+    width: 100%; 
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: black;
+    border:1px solid silver;
+    margin: 0;
+    padding: 1rem;
+    align-items: center;
+    text-align: right;
+    z-index: 10;
+    font-size: 24px;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+
+  
+  .secimg {
+    display: none;
+  }
+
+  .secimgresp {
+    display: flex;
+    flex-direction: column; 
+    gap: 1.5rem;
+    width: 100%;
+    align-items: center;
+    padding:0;
+  }
+
+  #imgh1 {
+    display:none;
+  }
+
+  #imgh2{
+    width: 80%; 
+    height:80%;
+    max-width: 250px;
+    margin: 0;
+  }
+
+  #imgh3 {
+    display:none;
+  }
+
+  .imgmain1 {
+    width: 100%;
+    height: auto; 
+  }
+
+  
+  .sect1r {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.7rem;
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-top: 2rem; 
+    background-color: rgba(178, 178, 182, 0.1);
+  }
+
+  .artsect1r {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  .artvideor {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .iframer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .artacercar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #blockquoter {
+    text-align: justify;
+    font-family: 'Bahnschrift', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  #ptitler {
+    font-family: 'Bahnschrift', sans-serif; 
+    font-size: 28px;
+    color: whitesmoke;
+  }
+
+  #psubtitler {
+    font-family: 'Bahnschrift', sans-serif; 
+    font-size: 18px;
+    color: whitesmoke;
+  }
+
+  h1 {
+    color: rgb(221, 221, 115);
+    font-family: 'Bahnschrift', sans-serif; 
+    text-align: center; 
+    font-size: 22px;
+  }
+  
+  /* Ocultar elementos desktop */
+  .sect1, .separador, .sectnov, .sect2 {
+    display: none;
+  }
+  
+  .separadorresp{
+    height:0.2rem;
+    width:80%;
+    border-radius: 0.2rem;
+  }
+
+  .imgsepresp{
+    height:100%;
+    width:100%;
+    border-radius: 0.2rem;
+  }
+
+  .sectnovr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+
+  .artnovmainr {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(178, 178, 182, 0.1);
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .artnov1r, .artnov2r, .artnov3r, .artnov4r {
+    position: relative;
+    width: 90%; 
+    aspect-ratio: 4 / 3; 
+    box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.3);
+  }
+
+  .imgnovr {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+  .sect2r {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    width: 100%;
+    margin: 2rem 0;
+  } 
+
+  .artmainpubli1r {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+
+    #acontactr{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 12rem;
+    height: 3rem;
+    background-color: chocolate;
+    color: white;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    margin: 1rem auto; 
+    position:absolute;
+    top:60%;
+    right: 30%;
+    }
+
+   #acontactr:hover {
+    background-color: rgba(57, 62, 31, 0.8);
+    color: aqua;
+    }
+  }
+
+  .cover {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    pointer-events: none; 
+  }
+
+  .imgpubli1r {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #ptitle1r {
+    position: absolute;
+    font-family: 'Bahnschrift', sans-serif; 
+    font-size: 24px;
+    color: whitesmoke;
+    z-index: 3;
+    top: 10%;
+    left: 5%;
+  }
+
+  #blockquote1r {
+    position: absolute;
+    font-family: 'Bahnschrift', sans-serif;
+    color: whitesmoke;
+    font-size: 16px ;
+    z-index: 3;
+    bottom: 10%;
+    left: 5%;
+    right: 5%;
+  }
+
+  .artmainpubli2r {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .imgpubli2r {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .footerresp{
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    background-color:transparent;
+    padding:1rem;
+    align-items: center;
+    text-align: center;
+    max-width:100%;
+    margin-top: 2rem;
+  }
+
+ .navh2resp{
+   display: inline-flex;
+   position:relative;
+   z-index: 2;
+   text-align: right;
+   padding: 1rem;
+   border-radius: 1rem;
+ }
+
+ .sectfooterresp{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+  }
+
+  #afooterresp{
+    color:white;
+    align-items: center;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+  }
+
+ #afooterresp:not(:last-child)::after {
+    content: "|";
+    margin-left: 10px;
+    color: #ccc;
+  }
+
+  #afooterresp:hover{
+    scale:unset;
+    text-decoration: none;
+    font-family: Helvetica;
+    color:red;
+  }
+
+  .aheadresp{
+    color:white;
+  }
+
+  .aheadresp:hover{
+    color:blue;
+  }
+
+  .h2resp{
+    font-size: 14;
+    font-family: Helvetica;
+  }
+
+  .footerpc{
+    display:none;
+  }
+}
+
+
 
 

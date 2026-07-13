@@ -168,7 +168,7 @@ main{
    }*/
 }
 
-@media (350px < width <= 1024px) {
+@media (300px < width <= 1024px) {
 
   #amiyagi {
     color: rgb(91, 3, 3); 

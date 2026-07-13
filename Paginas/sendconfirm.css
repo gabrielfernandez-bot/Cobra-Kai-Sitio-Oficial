@@ -14,7 +14,9 @@ body{
    height:100%;
 }
 
-#mainenvio{
+@media (1204px< width <= 1920px){
+
+    #mainenvio{
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../Img/fondo\ envio\ exitoso.jpg);
     background-position:center;
     background-attachment:scroll;
@@ -30,9 +32,9 @@ body{
     align-items: center;
     padding-top: 5%;
     
-}
+    }
 
-.artmensaje{
+    .artmensaje{
     
     background-color: rgba(60, 54, 54, 0.5);
     border-radius: 0.7rem;
@@ -42,17 +44,17 @@ body{
    flex-direction: column;
     text-align: center;
     align-items: center;
-}
+    }
 
-h1,h2,h3{ color:azure; font-family: Arial, Helvetica, sans-serif;}
+   h1,h2,h3{ color:azure; font-family: Arial, Helvetica, sans-serif;}
 
-h1{font-size: 120px;}
+   h1{font-size: 120px;}
 
-h2{font-size: 60px;}
+   h2{font-size: 60px;}
 
-h3{font-size: 60px;}
+   h3{font-size: 60px;}
 
-#aback{
+   #aback{
     width:9rem;
     height:3rem;
     text-decoration: none;
@@ -65,9 +67,9 @@ h3{font-size: 60px;}
     margin-top: 2rem;
     cursor: pointer !important;
     padding:0;
-}
+   }
 
-#aback:hover{
+   #aback:hover{
 
     scale: 1.2;
     color:rgb(4, 4, 4);
@@ -76,5 +78,63 @@ h3{font-size: 60px;}
     border-radius: 0.7rem;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer !important;
+   }
+
+
 }
 
+@media (300px < width <=1024px) {
+
+    #mainenvio{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../Img/sendconfirmresp.jpg);
+    background-position:center;
+    background-attachment:scroll;
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+   
+    margin-top:0;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+    
+    }
+
+    .artmensaje{
+    
+    background-color: rgba(60, 54, 54, 0.5);
+    filter: brightness(180%);
+    border-radius: 0.7rem;
+    width:87%;
+    height:87%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    }
+
+   h1,h2,h3{ color:azure; font-family: Arial, Helvetica, sans-serif;}
+
+   h1{font-size: 60px;}
+
+   h2,h3{font-size: 40px;}
+
+   #aback{
+    width:9rem;
+    height:3rem;
+    text-decoration: none;
+    color:chocolate;
+    background-color: rgb(255, 255, 255);
+    border:2px solid chocolate;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.7rem;
+    margin-top: 2rem;
+    cursor: pointer !important;
+    padding:0;
+   }
+
+}
