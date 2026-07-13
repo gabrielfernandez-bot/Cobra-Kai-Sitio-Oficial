@@ -486,7 +486,7 @@
   }
 }
 
-@media (300px < width <=1024px){
+@media (300px <= width <=1024px){
 
   .secgral {
     display: flex;

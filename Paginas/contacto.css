@@ -136,7 +136,7 @@
     }
 }
 
-@media (300px < width <= 1024px) {
+@media (300px <= width <= 1024px) {
  
     .sectform{
     background-image: url(../Img/dojocontacto.png);

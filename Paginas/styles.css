@@ -327,6 +327,8 @@ body {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    white-space: normal;
+    overflow-wrap: break-word;
   }
 
   #afooterresp {
