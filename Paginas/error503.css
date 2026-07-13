@@ -50,7 +50,7 @@
 
 }
 
-@media (300px < width <= 1024px) {
+@media (300px <= width <= 1024px) {
 
     #mainerror{
     background-image: url(../Img/error503resp.jpg);
@@ -85,9 +85,9 @@
 
     h1,blockquote{ color:azure; font-family: Arial, Helvetica, sans-serif;}
 
-    h1{font-size: 50px;}
+    h1{font-size: 200%;}
 
-    blockquote{font-size: 40px;}
+    blockquote{font-size: 200%;}
 
     .artsupport{
     height:6rem;

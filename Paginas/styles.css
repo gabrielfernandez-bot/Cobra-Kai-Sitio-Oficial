@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  cursor: url('../Img/cursor.png') auto !important;
+  cursor: url('../Img/cursor.png'), auto !important;
   
 }
 
@@ -216,7 +216,7 @@ body {
 }
 
 /* Adaptación para móviles (General) */
-@media (300px < width <= 1024px) {
+@media (300px <= width <= 1024px) {
   body {
     width: 100%;
     padding: 0 1%;

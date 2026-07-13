@@ -832,8 +832,10 @@
    align-items: center;
    text-align: center;
    max-width: 100%;
+   width:100%;
    background-color: rgba(112, 110, 110, 0.3);
    padding:1rem;
+   border-radius: 0.7rem;
   }
 
   .artrailer {
@@ -854,7 +856,7 @@
   }
 
   .blockjuego{
-    max-width:80%;
+    max-width:100%;
     height:auto;
     text-align: justify;
   }
@@ -864,10 +866,11 @@
     flex-direction: column;
     align-items: stretch;
     text-align: center;
-    max-width: 90%;
+    max-width: 100%;
+    width: 100%;
     margin:0 auto;
     gap:1rem;
-    padding: 1rem;
+    padding: 0.5rem;
     box-sizing: border-box;
     
   }
