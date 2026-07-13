@@ -23,7 +23,7 @@ main{
 }
 
 
-@media(1024px < width <= 1920px){
+@media(1024px <= width <= 1920px){
 
     .dojoscont{
     display:flex; 
@@ -70,7 +70,7 @@ main{
 
 }
 
-@media (350px < width <= 1024px){
+@media (width < 1024px){
 
     *{
       cursor:alias !important;
