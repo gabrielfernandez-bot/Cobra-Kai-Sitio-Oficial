@@ -35,7 +35,6 @@ main{
     height:20vw; 
     border: transparent; 
     margin:0;
-    border:2px solid blue; 
     padding:0;
     margin: 0 auto;
    }
@@ -103,7 +102,6 @@ main{
     height:auto; 
     border: transparent; 
     margin:0; 
-    border:2px solid blue;
    }
 
    
